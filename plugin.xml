@@ -19,7 +19,7 @@
                     @name:	"ios-package" / "android-package" / etc
                     @value:	Native code Class name
                 -->
-                <param name="ios-package" value="MyPlugin">
+                <param name="ios-package" value="MyPlugin" />
 			</feature>
 		</config-file>
 
