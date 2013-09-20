@@ -13,4 +13,5 @@ MyPlugin.prototype = {
 	
 }
 
-module.exports = new MyPlugin();
+var myPlugin = new MyPlugin();
+module.exports = myPlugin;
