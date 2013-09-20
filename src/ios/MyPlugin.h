@@ -2,6 +2,6 @@
 
 @interface MyPlugin : CDVPlugin
 
-- (void) echo:(CDVInvokedURLCommand*)command;
+- (void) echo:(CDVInvokedUrlCommand*)command;
 
 @end

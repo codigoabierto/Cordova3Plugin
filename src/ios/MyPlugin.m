@@ -3,7 +3,7 @@
 
 @implementation MyPlugin
 
-- (void) echo:(CDVInvokedURLCommand*)command{
+- (void) echo:(CDVInvokedUrlCommand*)command{
 
 	CDVPluginResult* pluginResult = nil;
 	NSString* echo = [command.arguments objectAtIndex:0];
